@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Giliams";
+    color: #0D0D21;
+}
+
+ul{
+    list-style: none;
+}
+
+p, button, a{
+    font-family: "Sf Compact Display" !important;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+nav ul li a{
+    color: black;
+}
+
+main{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-left: 3rem;
+}
+
+
+main h1{
+    font-size: 2.5rem;
+    margin-top: 12rem;
+}
+
+main p{
+    margin-top: 22px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+main button{
+    margin: 1rem 0;
+    font-size: 1rem;
+    background-color: #0D0D21;
+    padding: 12px 1rem;
+    color: #fff;
+    border-radius: 5px;
+}
+
+main img{
+    width: 90%;
+    margin-right: -30rem;
+}
+
+section{
+    padding: 3rem;
+}
+
+#features{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+#features .body{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#features .head{
+    width: 45%;
+}
+
+#features .head h1{
+    font-size: 40px;
+}
+
+#features .head p{
+    font-size: 20px;
+    margin-top: 1rem;
+}
+
+#features .body{
+    width: 40%;
+}
+
+#features .body div > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#features .body div > div h3{
+    font-size: 1.3rem;
+}
+
+#features .body div > div i{
+    font-size: 1.2rem;
+    background-color: #0d0d2130;
+    color: #0D0D21;
+    padding: .7rem;
+    border-radius: 50%;
+}
+
+#features .body div p {
+    margin-left: 3.4rem;
+}
+
+#features p{
+    line-height: 1.5;
+}
