@@ -33,6 +33,14 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 1rem 3rem;
+    box-shadow: 0 5px 12px #0d0d2121;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+}
+
+nav img{
+    width: 60%;
 }
 
 nav ul{
@@ -43,6 +51,10 @@ nav ul{
 
 nav ul li a{
     color: black;
+}
+
+nav ul li .active{
+    border-bottom: 1px solid #0D0D21;
 }
 
 main{
